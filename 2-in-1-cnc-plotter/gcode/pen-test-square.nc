@@ -1,0 +1,16 @@
+(20 mm pen test square; verify coordinates and Z travel before running)
+G21
+G90
+G94
+G17
+G54
+G0 Z2.000
+G0 X0.000 Y0.000
+G1 Z-0.200 F60
+G1 X20.000 Y0.000 F240
+G1 X20.000 Y20.000
+G1 X0.000 Y20.000
+G1 X0.000 Y0.000
+G0 Z2.000
+M5
+M30
